@@ -2,27 +2,27 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             kgb198621@gmail.com
+  name: <firstname> <lastname>
+  email: kgb198621@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
+  about: |
     오타, 잘못된내용이 있으면 언제든지 말씀해주세요.
 
   # This photo will be used in the about section
   picture:
-    path:           /assets/img/Bkq1akMCcAEeR30.png
+    path: /assets/img/none.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /assets/img/Bkq1akMCcAEeR30.png
-      2x:            /assets/img/Bkq1akMCcAEeR30.png
+      1x: /assets/img/./blog.png
+      2x: /assets/img/none.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    github:          amugoto
+    github: amugoto
     # twitter:         <username>
     # email:           mailto:<mail@domain.tld>
     # rss:             https://<url>/feed.xml
@@ -63,15 +63,15 @@ author1:
 
 # Another author (optional)
 author2:
-  name:              <firtname> <lastname>
-  email:             kgb198621@gmail.com
-  about:             |
+  name: ./blog
+  email: kgb198621@gmail.com
+  about: |
     오타, 잘못된내용이 있으면 언제든지 말씀해주세요.
 
-  picture:           /assets/img/Bkq1akMCcAEeR30.png
+  picture: /assets/img/none.png
   #twitter:           <username>
-  github:            amugoto
-  accent_color:      '#268bd2'
+  github: amugoto
+  accent_color: '#268bd2'
   accent_image:
-    background:      '#202020'
-    overlay:         false
+    background: '#202020'
+    overlay: false
